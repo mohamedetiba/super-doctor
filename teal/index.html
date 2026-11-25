@@ -203,6 +203,43 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   html{scroll-behavior:auto}
   .js .rx-lines div,.js .rx-sign .sig,.js .stamp{animation:none;clip-path:none;opacity:.88}
 }
+/* agreed palette: dark teal + magenta */
+:root{--paper:#081311;--sheet:#0F1D1B;--ink:#FAFAFA;--ink-2:#CFE0DC;--teal:#14A593;--rule:#223A36;--stamp:#E05AA3;--muted:#8FA8A3;--teal-l:#3FD3BD}
+a{color:var(--teal-l)}
+.top{background:rgba(8,19,17,.92)}
+.name small{color:var(--muted)}
+.top nav a{color:var(--muted)}
+.btn-main:hover{background:#0D7A6D}
+.link{color:var(--ink)}
+.hero .lede,.intro p,.problems p,.steps p,.about p,details p,.contact .intro-text p,.form-card .hint,.q-count,.result p,.field label,.loss span,.about figcaption,.about .facts div span,footer,form label{color:var(--ink-2)}
+.problems h3{color:var(--ink)}
+.steps li:before{color:var(--teal-l)}
+/* the prescription stays paper */
+.rx{background:#ECF5F3;color:#10302B;border-color:#ECF5F3;box-shadow:0 24px 60px -20px rgba(0,0,0,.7)}
+.rx-head{border-bottom-color:#10302B}
+.rx-head span,.rx-lines em,.rx .muted{color:#3E5A55}
+.rx-sym{color:#0D7A6D}
+/* program */
+.program{background:#06231F;border-top:1px solid var(--rule)}
+.podcast{background:#0F2E2A}
+.wave i{background:var(--teal-l)}
+.incl li{border-bottom-color:#1C3D37}
+.months,.months div{border-color:#1C3D37}
+.program .btn-main{background:var(--teal-l);color:#081311}
+.program .btn-main:hover{background:#9AF5E6}
+/* tools & forms */
+.form-card,form{background:var(--sheet);border-color:var(--rule)}
+.q-btns button{background:#081311;color:var(--ink);border-color:var(--rule)}
+.q-btns .yes{background:var(--teal);border-color:var(--teal);color:#fff}
+.score{color:var(--teal-l)}
+.loss{border-top-color:var(--ink)}
+input[type=range]{accent-color:var(--teal-l)}
+form input,form select{background:#081311;color:var(--ink);border-color:var(--rule)}
+form input::placeholder{color:#5F7672}
+.msg{background:#081311;color:var(--ink-2)}
+.err{color:#F08CC4}
+summary:after{color:var(--stamp)}
+.about .facts div b{color:var(--ink)}
 </style>
 </head>
 <body>
