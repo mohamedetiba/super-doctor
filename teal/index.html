@@ -22,7 +22,7 @@
   --body:'IBM Plex Sans Arabic',Tahoma,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.85 var(--body);-webkit-font-smoothing:antialiased}
 a{color:var(--teal)}
 img{max-width:100%;display:block}
@@ -62,7 +62,7 @@ p{margin:0}
 .rx-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:12px;position:relative}
 .rx-head b{font-size:20px;display:block}
 .rx-head span{font-size:14px;color:var(--ink-2)}
-.rx-sym{font:700 46px/1 Georgia,serif;color:var(--teal)}
+.rx-sym{font:700 46px/1 Georgia,"Times New Roman",serif;color:var(--teal);direction:ltr}.rx-sym span{font-size:28px;margin-left:-4px;vertical-align:-10px}
 .rx-lines{position:relative;font-family:var(--hand);font-size:26px;line-height:48px;color:#173F8A;display:grid;gap:4px}
 .rx-lines div{line-height:1.75}
 .rx-lines em{font-style:normal;font-family:var(--body);font-size:15px;color:var(--ink-2);margin-left:12px;display:inline-block;min-width:58px}
@@ -236,7 +236,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <div class="rx" role="img" aria-label="روشتة مكتوبة للعيادة: التشخيص إن الدكتور شاطر بس مش ظاهر، والعلاج برنامج سوووبر دكتور لمدة 3 شهور">
       <div class="rx-head">
         <div><b>محمد عتيبة</b><span>استشارات تسويق طبي</span></div>
-        <div class="rx-sym" aria-hidden="true">℞</div>
+        <div class="rx-sym" aria-hidden="true">R<span>x</span></div>
       </div>
       <div class="rx-lines" aria-hidden="true">
         <div><em>الاسم</em>عيادتك</div>
